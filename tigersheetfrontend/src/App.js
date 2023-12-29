@@ -17,7 +17,7 @@ function App() {
           console.error('No sheet id provided');
           return;
         }
-        const res = await axios.get(`http://localhost:5000/fetchrequest?page=${currentPage}`);
+        const res = await axios.get(`https://tigersheetbackend-sand.vercel.app/fetchrequest?page=${currentPage}`);
         setData(res.data.data);
         setLoading(false);
         console.log(res.data);
