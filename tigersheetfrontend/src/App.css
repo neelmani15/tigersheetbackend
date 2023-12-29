@@ -1,0 +1,37 @@
+.container {
+    font-family: 'Arial, sans-serif';
+    max-width: '600px';
+    display: flex;
+    justify-content: center;
+    margin: 'auto';
+    padding: '20px';
+    background-color: '#f5f5f5';
+    border-radius: '8px';
+    box-shadow: '0 4px 8px rgba(0, 0, 0, 0.1)';
+  }
+  .heading {
+    font-size: '24px';
+    margin-bottom: '20px';
+    text-align: center;
+    color: '#333';
+  }
+  .table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .tableHeader {
+    background-color: #aeaeae; /* Gray color for the header cells */
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .tableCell {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  .pagination{
+    text-align: center;
+    padding: 10px;
+  }
