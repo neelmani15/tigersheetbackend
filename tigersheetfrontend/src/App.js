@@ -31,10 +31,12 @@ function App() {
 
   const handleNextPage = () => {
     setCurrentPage((prevPage) => prevPage + 1);
+    setLoading(true);
   };
 
   const handlePrevPage = () => {
     setCurrentPage((prevPage) => Math.max(prevPage - 1, 1));
+    setLoading(true);
   };
 
   return (
